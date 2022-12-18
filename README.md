@@ -8,6 +8,11 @@ Working on including common statistical data such as mean averages or change, lo
 <h2>To run script please clone this repository, and then run the following in this respective directory:</h2>
 
 ```bash
-pip install requests parsel
-python3 main.py
+# create virtual environment
+$ pip install virtualenv
+$ python -m venv env
+# install packages to virtual environment
+$ pip install requests parsel
+# run main file script
+$ python3 main.py
 ```
